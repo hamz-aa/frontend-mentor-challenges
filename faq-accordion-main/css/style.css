@@ -54,6 +54,8 @@ main {
   width: 40%;
   padding: 1.5em;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  height: 363px;
+  transition: height 0.5s ease;
 }
 
 .heading {
@@ -68,12 +70,14 @@ main {
 
 .heading h1 {
   font-size: 40px;
+  color: var(--Dark-purple);
 }
 
 .q-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 li:first-child .q-wrapper {
@@ -87,10 +91,17 @@ li:not(:first-child) .q-wrapper {
 p.question {
   font-weight: 600;
   opacity: 0.85;
+  color: var(--Dark-purple);
+}
+
+p.question:hover {
+  color: var(--Grayish-purple);
+  opacity: 1;
 }
 
 p.answer {
   color: var(--Grayish-purple);
   opacity: 0.85;
   display: none;
+  margin: 20px 0;
 }
