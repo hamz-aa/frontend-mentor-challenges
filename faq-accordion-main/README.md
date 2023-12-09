@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Github Repo](https://github.com/hamz-aa/frontend-mentor-challenges/tree/main/faq-accordion-main)
 
 ## My Process
 
