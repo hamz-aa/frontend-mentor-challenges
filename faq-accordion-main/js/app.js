@@ -12,14 +12,10 @@ qWrapper.forEach((question) => {
     );
 
     if (flag) {
-      main.style.height = main.offsetHeight + 90 + "px";
-      icon.src = "./assets/images/icon-minus.svg";
       flag = false;
-      setTimeout(() => {
-        answer.style.display = "block";
-      }, 200);
+      icon.src = "./assets/images/icon-minus.svg";
+      answer.style.display = "block";
     } else {
-      main.style.height = main.offsetHeight - 90 + "px";
       answer.style.display = "none";
       icon.src = "./assets/images/icon-plus.svg";
       flag = true;
