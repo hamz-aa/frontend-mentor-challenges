@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/hamz-aa/frontend-mentor-challenges/tree/main/faq-accordion-main)
+- Solution URL: [Github Repo](https://github.com/hamz-aa/frontend-mentor-challenges/tree/main/four-card-feature-section-master)
 
 ## My Process
 
