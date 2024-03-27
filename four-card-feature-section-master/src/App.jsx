@@ -61,7 +61,7 @@ function App() {
 function Box({ name, desc, imgPath, color }) {
   return (
     <div
-      className="border-t-[3.5px] rounded w-[90%] justify-self-center shadow-custom border-[--color] my-8 sm:my-0 p-6 "
+      className="border-t-[3.5px] rounded w-[90%] justify-self-center shadow-custom border-[--color] my-8 mx-auto sm:my-0 p-6 "
       style={{ "--color": color }}
     >
       <h3 className="font-bold text-xl opacity-70">{name}</h3>
